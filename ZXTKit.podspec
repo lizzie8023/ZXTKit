@@ -15,8 +15,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/lizzie8023/ZXTKit"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "lizzie8023" => "zhangquan896@hotmail.com" }
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/lizzie8023/ZXTKit.git", :tag => "#{spec.version}" }
   spec.source_files  = "ZXTKit", "ZXTKit/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
+  spec.swift_version = '5.0'
 end
