@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZXTKit_Example' do
+  pod 'ZXTKit', :path => '../'
+
+  target 'ZXTKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
