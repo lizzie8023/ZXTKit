@@ -71,17 +71,17 @@ extension UIViewController {
     ///   - child: the view controller to add as a child
     ///   - containerView: the containerView for the child viewcontroller's root view.
     func addChildViewController(_ child: UIViewController, toContainerView containerView: UIView) {
-        addChildViewController(child)
+        addChild(child)
         containerView.addSubview(child.view)
-        child.didMove(toParentViewController: self)
+        child.didMove(toParent: self)
     }
     
     /// 将控制器从父容器上面移除
     func removeViewAndControllerFromParentViewController() {
         guard parent != nil else { return }
         
-        willMove(toParentViewController: nil)
-        removeFromParentViewController()
+        willMove(toParent: nil)
+        removeFromParent()
         view.removeFromSuperview()
     }
     
