@@ -1,0 +1,6 @@
+framework module ZXTKit {
+  umbrella header "ZXTKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

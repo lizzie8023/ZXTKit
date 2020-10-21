@@ -1,0 +1,22 @@
+{
+  "name": "ZXTKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZXTKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lizzie8023/ZXTKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lizzie8023": "zhangquan896@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lizzie8023/ZXTKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZXTKit/Classes/**/*"
+}
